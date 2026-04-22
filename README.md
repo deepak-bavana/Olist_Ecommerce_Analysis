@@ -5,7 +5,7 @@ End-to-end data analysis of Brazil's largest e-commerce platform (Olist),
 covering sales performance, customer segmentation, and revenue forecasting.
 
 ## Dataset
-- Source: Kaggle — Brazilian E-commerce Public Dataset by Olist
+- Source: Kaggle Brazilian E-commerce Public Dataset by Olist
 - 9 relational tables, 100,000+ orders (2016-2018)
 
 ## Tools Used
@@ -16,12 +16,12 @@ covering sales performance, customer segmentation, and revenue forecasting.
 | Power BI | Interactive executive dashboard |
 
 ## Key Findings
-- Total revenue: **R$19.7 million** across 96,464 delivered orders
-- Business grew **25x in 2 years** (Sep 2016 → Aug 2018)
-- **São Paulo generates 37%** of total revenue
-- Fast delivery (0-7 days) scores **4.33 stars** vs 2.97 for slow delivery
-- **Credit card = 73%** of all transactions
-- Top category: **Bed & Bath** at R$1.69M revenue
+- Total revenue: R$19.7 million across 96,464 delivered orders
+- Business grew 25x in 2 years (Sep 2016 → Aug 2018)
+- Sao Paulo generates 37% of total revenue
+- Fast delivery (0-7 days) scores 4.33 stars vs 2.97 for slow delivery
+- Credit card = 73% of all transactions
+- Top category: Bed & Bath at R$1.69M revenue
 
 ## RFM Customer Segments
 | Segment | Customers | Avg Spend |
@@ -40,17 +40,8 @@ covering sales performance, customer segmentation, and revenue forecasting.
 | November 2018 | R$1,714,076 |
 
 ## Business Recommendations
-1. Fix delivery speed in remote states — every extra day costs 0.3 stars in reviews
+1. Fix delivery speed in remote states every extra day costs 0.3 stars in reviews
 2. Launch win-back campaign for 22,219 At Risk customers before they become Lost
-3. Invest more in Bed & Bath and Health & Beauty — highest revenue + best reviews
-4. Expand seller network outside São Paulo — top 3 states = 62% of revenue
+3. Invest more in Bed & Bath and Health & Beauty highest revenue + best reviews
+4. Expand seller network outside São Paulo top 3 states = 62% of revenue
 
-## Project Structure
-```
-Olist_Ecommerce_Analysis/
-├── notebooks/     # Full analysis jupyter notebook
-├── sql/           # Business SQL queries
-├── visualization/ # 9 EDA + forecast plots
-├── dashboard/     # Power BI dashboard (.pbix)
-└── data/          # Master dataset + RFM table
-```
